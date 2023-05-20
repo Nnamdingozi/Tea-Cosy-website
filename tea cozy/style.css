@@ -1,0 +1,226 @@
+ /*universal style */
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+  
+}
+   
+body {
+    
+    font-family: Helvetica, Arial, sans-serif;
+    border: 2px solid black;
+    background-color: black;
+} 
+main {
+  margin: 50px 50px;
+
+}
+
+h2 {
+  font-size: 32px;
+ 
+}
+h3 {
+  font-size: 26px;
+  line-height: 1.9;
+}
+h4 {
+  font-size: 18px;
+  margin-bottom: 0;
+
+}
+p {
+  font-size: 16px;
+  
+  text-align: center;
+}
+a {
+  color: white;
+}
+
+
+/*header style */
+
+header {
+  display: inline-flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100vw;
+  justify-content: space-between;
+  position: fixed;
+  background-color: black;
+  
+  
+
+}
+img {
+  min-width: 50px;
+  min-height: 50px;
+  padding-left: 40px;
+  padding-top: 4px;
+}
+nav {
+    height: 60px;
+    color: white;
+    padding-right: 20px;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 20px 0;
+  text-align: center;
+}
+nav li {
+  margin: 0 20px;
+}
+.nav-a:hover {
+text-decoration: none;
+color: rgb(180, 9, 180);
+}
+.nav-a:active {
+  color: green;
+}
+
+/*our mission section */
+
+.mission {
+    background-image: url(./resources/img-mission-background.jpg);
+    height: 700px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-size: cover;
+    position: relative;
+    margin-top: 69px;
+    z-index:-2;
+    opacity: 0.9;
+}
+.mission-text
+ {
+    background-color: black;
+    position: relative;
+    z-index: -3;
+    color: white;
+    top: 300px;
+    text-align: center;
+    min-height: 100px;
+    line-height: 1.5;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 0;
+  }
+ /*Tea section */
+ .tea-banner {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+
+ 
+}
+.tea-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+  margin-bottom: 10px;
+
+  
+}
+ .tea-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  min-height: 600px;
+  justify-content: center;
+  
+ }
+ 
+ 
+ 
+ .tea img {
+  max-width: 300px;
+  max-height: 200px;
+  margin-bottom: 15px;
+
+ }
+ /* location section*/
+ .location-banner {
+  min-height: 500px;
+  max-width: 1200px;
+  background-image: url(./resources/img-locations-background.jpg);
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+ }
+ .location-banner h2 {
+  text-align: center;
+  padding-top: 20px;
+ }
+ .location-container {
+  display: inline-flex;
+  min-height: 450px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+ }
+ 
+.location {
+  min-height: 300px;
+  width: 300px;
+  margin: 15px 20px;
+  background-color: black;
+  color: white;
+}
+.location-heading {
+  height: 50px;
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 0px;
+}
+.location-p {
+  word-spacing: 4px;
+ 
+  line-height: 3.5;
+  font-size: 20px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 200px;
+  
+}
+.contact>ul {
+  margin-top: 15px;
+  
+}
+.contact li {
+  list-style-type: none;
+  line-height: 2.5;
+  
+}
+.contact-a {
+  text-decoration: none;
+}
+.contact-a:hover {
+  text-decoration: underline;
+  color: rgb(180, 9, 180)
+}
+.contact-a:active {
+  color: green;
+}
+footer p{
+  text-align: left;
+}
